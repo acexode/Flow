@@ -1,0 +1,56 @@
+.login-header{
+    background: var(--theme-color);
+}
+
+.login-header{
+    position: relative;
+    background: var(--theme-color);
+    border-radius: 0em;
+}
+.login-header:after{
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 15%;
+   width: 0;
+   height: 0;
+   border: 20px solid transparent;
+   border-top-color: var(--theme-color);
+   border-bottom: 0;
+   margin-left: -15px;
+   margin-bottom: -15px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;  
+  }
+  
+  .flex-container > div {  
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;   
+  }
+  .signup{
+      text-align: left;
+  }
+.logo-img{
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.error-message{
+    padding-left: 15px;
+    color: rgb(199, 44, 44);
+    font-size: 12px;
+}
+ion-label{
+    color: rgb(82, 75, 75) !important;
+    opacity: .8;
+    font-size: 14px !important;    
+}
+ 
+.line-space{
+    height: 30px;
+}
